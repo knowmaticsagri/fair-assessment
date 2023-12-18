@@ -648,7 +648,7 @@
                                                         value="0" onclick="update_A()" checked> No<br></label><br>
                                                 <input type="radio" name="aq1" id="aq1.3" value="5"
                                                     onclick="update_A()">&nbsp;&nbsp;I can't find this information in
-                                                EASY<br>
+                                                the MaDiPHS controlled vocabulary<br>
                                             </div>
                                         </div>
                                     </div>
@@ -673,7 +673,7 @@
                                     <br>
                                     <div class="form-group row">
                                         <label for="aq3" class="col-sm-6 col-form-label" id="A-i-3-title">
-                                            6. Which of the usage licenses provided by EASY did you choose in order to
+                                            6. Which of the usage licenses suggested by MaDiPHS did you choose in order to
                                             comply with the access rights attached ot the data?
                                             <a href="#fhelp" data-toggle="modal" onclick="show_modal('A-i-3')">
                                                 <span class="glyphicon glyphicon-info-sign"></span>
@@ -847,7 +847,7 @@
                                     <br>
                                     <div class="form-group row">
                                         <label for="rq2" class="col-sm-6 col-form-label" id="R-i-2-title">
-                                            11. Which usage license provided by EASY did choose for your dataset?
+                                            11. Which usage license suggested by MaDiPHS did choose for your dataset?
                                             <a href="#fhelp" data-toggle="modal" onclick="show_modal('R-i-2')">
                                                 <span class="glyphicon glyphicon-info-sign"></span>
                                             </a>
@@ -908,7 +908,7 @@
                                     <div class="col-md-8">
                                         <div id="total-score">Your data is
                                             <span id="total-score-percent"></span>
-                                            FAIR in EASY
+                                            FAIR in MaDiPHS DMF
                                         </div>
                                     </div>
                                 </div>
@@ -988,8 +988,6 @@
             The 12 questions of the tool are divided into three questions per letter, are based on the <a
                 href="https://www.go-fair.org/fair-principles/" target="_blank">FAIR data principles<i
                     class="fa fa-external-link"></i></a>.
-            Those aspects of the FAIR principles which are already covered by EASY (e.g. whether or not the dataset will
-            have a Persistent Identifier assigned), are left out this tool.
             Questions which typically concern machine readability are those about (meta)data standards such as
             controlled vocabularies, ontologies and taxonomies.
             Some questions are posed more than once (e.g. on metadata and data standards or usage licences), because the
@@ -1049,7 +1047,7 @@
             This description can be divided into three elements:
             <ul>
                 <li>Rich and detailed metadata and additional information</li>
-                <li>Persistent links / Persistent Identifiers (provided by EASY after the deposit of the dataset)</li>
+                <li>Persistent links / Persistent Identifiers (provided by the collecting organisation after the deposit of the dataset)</li>
                 <li>Standards: the more standardized terms you use, the more findable your data are. Some domains have
                     specific standards,
                     for other domains there are more generic standards like the Getty Thesaurus of Geographical Names or
@@ -1063,7 +1061,7 @@
             providing information about the URL where the dataset is stored,
             creator, provenance, purpose, time, geographic locations, access conditions, and terms of use of a data
             collection. The extent to which metadata is provided for a dataset
-            can vary greatly and has an effect on how findable a dataset is. In EASY a minimum number of metadata fields
+            can vary greatly and has an effect on how findable a dataset is.
             are required in order to successfully deposit a dataset.
             The minimum metadata, however, is not comprehensive enough to fulfil the requirements of FAIR. The following
             list provides a comprehensive list of items that should be covered
@@ -1072,8 +1070,7 @@
             <ul>
                 <li>A globally unique <a
                         href="https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-"
-                        target="_blank">Persistent Identifier <i class="fa fa-external-link"></i></a> (PID) e.g. a DOI
-                    (provided by EASY)</li>
+                        target="_blank">Persistent Identifier <i class="fa fa-external-link"></i></a> (PID) e.g. a DOI</li>
                 <li>A title</li>
                 <li>Related people, i.e. the creator of the dataset</li>
                 <li>Other related people who contributed to the dataset</li>
@@ -1081,8 +1078,8 @@
                 <li>A description of how the data were created (contextual information)</li>
                 <li>Target group for the dataset deposited (i.e. scientific disciplines)</li>
                 <li>Keywords that describe your data (use controlled vocabularies if available for your field)</li>
-                <li>A licence that clearly states the extent to which the data is accessible (a list to choose from is
-                    given in EASY)</li>
+                <li>A licence that clearly states the extent to which the data is accessible (a list of suggestions is
+                    given in the MaDiPHS DMF Wiki)</li>
                 <li>Temporal coverage: the period of time to which the data relate</li>
                 <li>Spatial coverage: Geographical location of the research area or site</li>
                 <li>Related datasets, resources like publications, websites etc. (digital or analogue)</li>
@@ -1152,10 +1149,7 @@
                 href="http://www.getty.edu/research/tools/vocabularies/tgn/" target="_blank">Getty Thesaurus <i
                     class="fa fa-external-link"></i></a> for geographical names, which can be used across disciplines.
             <br><br>
-            In EASY some metadata sections already offer (domain specific) controlled vocabularies. For instance, to
-            describe the subject and the temporal coverage you can select term from the “Archeologisch Basis Register”
-            (ABR) and the newer version ABRplus.
-            These vocabularies are maintained by the Dutch “Rijksdienst voor het Cultureel Erfgoed”
+            In the MaDiPHS Data Catalogue some metadata sections already offer (domain specific) controlled vocabularies.
             <br><br>
             For the ones among you who are interested in more technical background information: The EASY/DANS datavault
             offers standardised terms for creator and contributor, these are derived
@@ -1165,9 +1159,7 @@
             <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/qualifiers/"
                 target="_blank">Dublin Core <i class="fa fa-external-link"></i></a> is used.
             For language the ISO 639 standard is used and for date fields the ISO 8601 standard is used.
-            And to specify the format of the dataset you can make use of <a
-                href="https://github.com/DANS-KNAW/easy-split-multi-deposit/blob/master/src/main/assembly/dist/cfg/acceptedMediaTypes.txt"
-                target="_blank">this <i class="fa fa-external-link"></i></a> standardised list.
+            And to specify the format of the dataset you can make use of lists provided in the MaDiPHS DMF Wiki.
             <br><br>
             <i class="fa fa-long-arrow-right"></i> Click <a href="https://www.w3.org/standards/semanticweb/data"
                 target="_blank">here <i class="fa fa-external-link"></i></a> if you want to know more about linked
@@ -1333,14 +1325,10 @@
                 The questions that you will find under accessibility concern the accessibility of the metadata over
                 time, meaning that the repository guarantees that the metadata will be available even if the data itself
                 is no longer available, and the usage license chosen for the dataset.
-                The latter determines to what extent or under which circumstances the dataset can be accessed. EASY has
+                The latter determines to what extent or under which circumstances the dataset can be accessed. MaDiPHS DMF Wiki has
                 a number of usage licenses from which to choose, depending on the content of the data.
                 In the FAIR Principles, the automated accessibility of metadata and data by machines is also covered
                 under Accessibility.
-                As EASY makes use of the <a href="https://dublincore.org/resources/metadata-basics/"
-                    target="_blank">Dublin Core <i class="fa fa-external-link"></i></a> metadata schema and provides a
-                President Identifier (see Findability) for each dataset, the machine actionability of the metadata is
-                covered.
                 There is no question about this technical aspect in this part.
             </p>
         </div>
@@ -1349,8 +1337,8 @@
             Metadata as described in Question 1 is the description of your data. As such it is associated with your
             dataset. For the accessibility but also for the findability of your data it is essential that the metadata
             of the dataset remains accessible even if the data itself is not available anymore. It is the repository you
-            deposit in, in our case EASY, which should ensure that this is the case.
-            With this question we would like to encourage you to check whether the metadata in EASY is publicly
+            deposit in, in our case either the collecting organisation's data repository, or the central one, which should ensure that this is the case.
+            With this question we would like to encourage you to check whether the metadata in MaDiPHS Data Catalogue is publicly
             accessible even if the dataset is no longer available.
         </div>
 
@@ -1358,16 +1346,15 @@
             The extent to which you can make your dataset openly available depends on whether your dataset contains
             personal data. If it contains personal data, it is clear that you will have to restrict the access to your
             dataset. In question six you can further specify which usage license you intend to choose.
-            In the explanatory text of Question six, the different usage licenses provided by EASY are listed.
+            In the explanatory text of Question six, the different usage licenses suggested by MaDiPHS are listed.
         </div>
 
         <div id="A-i-3-contents">
-            On the EASY page where detailed information is provided about how the data should be deposited (“During
-            depositing”), there is a list with licenses that you can choose from. Depending on the data and on whether
+            On the MaDiPHS DMF Wiki, there is a page with a list with licenses that you can choose from. Depending on the data and on whether
             or not the data contains personal data (see question 5) you can choose:
             <br><br>
             <ul>
-                <li>Open Access (everyone): CC0 Waver, accessible to everyone, no login in EASY required. Choose this
+                <li>Open Access (everyone): CC0 Waver, accessible to everyone. Choose this
                     license if your dataset doesn’t contain personal data and if you are allowed to publish it openly.
                 </li>
                 <li>Open Access (registered users): accessible to registered users in accordance with the General
@@ -1376,13 +1363,8 @@
                 <li>Restricted Access (request permission): with your prior consent, users can view and download data in
                     accordance with the General Conditions of Use. You can also impose additional conditions. Choose
                     this license if your data contains personal data.</li>
-                <li>Restricted Access (archaeology group): accessible to registered archaeologists and archaeology
-                    students in accordance with the General Conditions of Use. Choose this license if you are in the
-                    field of archeology.</li>
-                <li>Other Access: the data will be accessible through another repository. Choose this license if your
-                    data is deposited and available in another repository. Contact DANS <a
-                        href="mailto:info@dans.knaw.nl">(info@dans.knaw.nl) <i class="fa fa-envelope-o"></i></a> if you
-                    would like to use this license.</li>
+                <li>Restricted Access: accessible to a specific group in accordance with the General Conditions of Use. </li>
+                <li>Other Access: if data cannot use any of the above catagories.</li>
             </ul>
         </div>
 
@@ -1400,22 +1382,21 @@
         </div>
 
         <div id="A-advice-1.1-0-0">
-            All metadata in EASY is made openly accessible and will be available even after the data(set) is no longer
+            All metadata in MaDiPHS Data Catalogue is made openly accessible and will be available even after the data(set) is no longer
             available. Adding information to the metadata on your affiliation at the time of your research, provides
             users with a contact point to consult if they would like to track the availability of your data.
         </div>
 
         <div id="A-advice-1.0-1-0">
-            Check the source of your information about the availability of metadata in EASY again. All metadata in EASY
+            Check the source of your information about the availability of metadata in MaDiPHS Data Catalogue again. All metadata in MaDiPHS Data Catalogue
             is made openly accessible and will be available even after the data(set) is no longer available. Adding
             information to the metadata on your affiliation at the time of your research, provides users with a contact
             point to consult if they would like to track the availability of your data.
         </div>
 
         <div id="A-advice-1.0-0-1">
-            All metadata in EASY is made openly accessible and will be available even after the data(set) is no longer
-            available. Information about metadata in EASY can be found on the DANS page "During Depositing" where the
-            information is given under 4. Adding information to the metadata on your affiliation at the time of your
+            All metadata in MaDiPHS Data Catalogue is made openly accessible and will be available even after the data(set) is no longer
+            available. Information about metadata in MaDiPHS Data Catalogue can be found in the DMF Wiki. Adding information to the metadata on your affiliation at the time of your
             research, provides users with a contact point to consult if they would like to track the availability of
             your data.
         </div>
@@ -1430,7 +1411,7 @@
         </div>
 
         <div id="A-advice-3.1">
-            You have chosen the right license if your data contains personal data. According to EASY policy, data which
+            You have chosen the right license if your data contains personal data. According to MaDiPHS Data Catalogue policy, data which
             contains personal, sensitive data can only be deposited with restricted access for users. Personal data is
             any information that relates to an identified or identifiable living individual. Different pieces of
             information, which together can lead to the identification of a particular person, also constitute personal
@@ -1440,15 +1421,13 @@
 
         <div id="A-advice-3.2">
             You have chosen the right license if your dataset cannot be accessed yet due to unpublished papers or an
-            ongoing project. Be aware: EASY only allows for this option if you have a good reason. EASY allows a maximum
-            number of 24 month to have your dataset under embargo. Your dataset will score low under Accessabilty, as
+            ongoing project. Your dataset will score low under Accessabilty, as
             users cannot access it.
         </div>
 
         <div id="A-advice-3.3">
             You have chosen the right license if your dataset cannot be accessed yet due to unpublished papers or an
-            ongoing project. Be aware, EASY only allows for this option if you have a good reason for choosing it. The
-            maximum number of months for the embargo to last is 24. Your dataset will score low under Accessabilty, as
+            ongoing project. Your dataset will score low under Accessabilty, as
             users cannot access it.
         </div>
 
@@ -1512,9 +1491,7 @@
             The use of preferred formats will also help to transform the format to a newer one, in case a preferred
             format gets outdated.
             <br><br>
-            <i class="fa fa-long-arrow-right"></i> Click <a
-                href="https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats"
-                target="_blank">here <i class="fa fa-external-link"></i></a> for the list of preferred formats in EASY.
+            Visit the MaDiPHS DMF Wiki for a list of data formats.
         </div>
 
         <div id="I-i-2-contents">
@@ -1667,31 +1644,8 @@
             You already answered this question under Accessible. Nevertheless, we consider it important that choosing
             the right usage license is highlighted under Reusable,
             too, as it is one of the key elements the may or may not allow other researchers to reuse a dataset. On the
-            EASY page where detailed information is provided about
-            how the data should be deposited (“During depositing”), there is a list with licenses that you can choose
-            from. Depending on the data and on whether or not the
-            data contains personal data (see question 5) you can choose:
-            <br><br>
-            <ul>
-                <li>Open Access (everyone): CC0 Waver, accessible to everyone, no login in EASY required.
-                    Choose this license if your dataset doesn’t contain personal data and if you are allowed to publish
-                    it openly.</li>
-                <li>Open Access (registered users): accessible to registered users in accordance with the General
-                    Conditions of Use.
-                    Choose this license if your data doesn’t contain personal data but you would like users to identify
-                    themselves before downloading your data.</li>
-                <li>Restricted Access (request permission): with your prior consent, users can view and download data in
-                    accordance with the General Conditions of Use.
-                    You can also impose additional conditions. Choose this license if your data contains personal data.
-                </li>
-                <li>Restricted Access (archaeology group): accessible to registered archaeologists and archaeology
-                    students in accordance with the General Conditions of Use.
-                    Choose this license if you are in the field of archeology.</li>
-                <li>Other Access: the data will be accessible through another repository. Choose this license if your
-                    data is deposited and available in another repository.
-                    Contact DANS <a href="mailto:info@dans.knaw.nl">(info@dans.knaw.nl) <i
-                            class="fa fa-envelope-o"></i></a> if you would like to use this license.</li>
-            </ul>
+            MaDiPHS DMF Wiki,there is a list with suggested licenses that you can choose
+            from. 
         </div>
 
         <div id="R-i-3-contents">
@@ -1725,7 +1679,7 @@
         </div>
 
         <div id="R-advice-2.1">
-            You have chosen the right license if your data contains personal data. According to EASY policy, data which
+            You have chosen the right license if your data contains personal data. According to MaDiPHS DMF policy, data which
             contains personal, sensitive data can only be deposited with restricted access for users. Personal data is
             any information that relates to an identified or identifiable living individual. Different pieces of
             information, which together can lead to the identification of a particular person, also constitute personal
@@ -1735,15 +1689,13 @@
 
         <div id="R-advice-2.2">
             You have chosen the right license if your dataset cannot be accessed yet due to unpublished papers or an
-            ongoing project. Be aware: EASY only allows for this option if you have a good reason. EASY allows a maximum
-            number of 24 month to have your dataset under embargo. Your dataset will score low under Accessabilty, as
+            ongoing project. Your dataset will score low under Accessabilty, as
             users cannot access it.
         </div>
 
         <div id="R-advice-2.3">
             You have chosen the right license if your dataset cannot be accessed yet due to unpublished papers or an
-            ongoing project. Be aware, EASY only allows for this option if you have a good reason for choosing it. The
-            maximum number of months for the embargo to last is 24. Your dataset will score low under Accessabilty, as
+            ongoing project. Your dataset will score low under Accessabilty, as
             users cannot access it.
         </div>
 
